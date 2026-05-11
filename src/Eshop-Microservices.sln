@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{86F8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{E1EC0482-F667-4ED9-832F-CBB1BF623746}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{67CB21A0-448E-4212-9F11-5F1CD58D22DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{009CA5E6-2B91-4458-8C59-A216B6457696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,11 +18,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{86F84986-2F6A-4A3A-9222-90598A6963A9} = {0F8A9C45-865F-475D-A779-D9FE9888CEC6}
 		{E1EC0482-F667-4ED9-832F-CBB1BF623746} = {86F84986-2F6A-4A3A-9222-90598A6963A9}
+		{009CA5E6-2B91-4458-8C59-A216B6457696} = {67CB21A0-448E-4212-9F11-5F1CD58D22DC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E1EC0482-F667-4ED9-832F-CBB1BF623746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1EC0482-F667-4ED9-832F-CBB1BF623746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1EC0482-F667-4ED9-832F-CBB1BF623746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1EC0482-F667-4ED9-832F-CBB1BF623746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009CA5E6-2B91-4458-8C59-A216B6457696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009CA5E6-2B91-4458-8C59-A216B6457696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009CA5E6-2B91-4458-8C59-A216B6457696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009CA5E6-2B91-4458-8C59-A216B6457696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
