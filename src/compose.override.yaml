@@ -1,6 +1,4 @@
-﻿version: '3.4'
-
-services:
+﻿services:
   catalogdb:
     container_name: catalogdb
     environment:
