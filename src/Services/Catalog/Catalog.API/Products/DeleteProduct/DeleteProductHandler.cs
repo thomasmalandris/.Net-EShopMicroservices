@@ -7,7 +7,7 @@ public class DeleteProductCommandValidator : AbstractValidator<DeleteProductComm
 {
     public DeleteProductCommandValidator()
     {
-        RuleFor(command => command.id).NotEmpty().WithMessage("Product Id is required");
+        RuleFor(command => command.Id).NotEmpty().WithMessage("Product Id is required");
     }
 }
 
