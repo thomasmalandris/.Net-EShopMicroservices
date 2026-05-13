@@ -21,7 +21,7 @@
       dockerfile: Services/Basket/Basket.API/Dockerfile
       
   discount.grpc:
-    image: discount.grpc
+    image: ${DOCKER_REGISTRY-}discount.grpc
     build:
       context: .
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
